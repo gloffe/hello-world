@@ -70,14 +70,14 @@ body {font-size:16px;}
     <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
   </form>
   <br>
-<div class="w3-panel w3-large">
+<!-- <div class="w3-panel w3-large">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
+  </div> -->
 </footer>
  
 </body>
