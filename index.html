@@ -8,8 +8,8 @@
 <style>
 body,h1,h2,h3,h4,h5  {font-family: "Poppins", Arial, sans-serif}
 body {font-size:16px;}
-<!-- Old image margin settings--> .w3-row img {margin-bottom: -8px}
-.w3-half img{margin-bottom:-6px;margin-top:16px;cursor:pointer}
+<!-- Image margin settings:	.w3-row img {margin-bottom: -8px}-->
+.w3-row-padding img{margin-bottom:-6px;margin-top:34px;padding-right:10px;cursor:pointer}
 </style>
 <body>
 
@@ -24,18 +24,30 @@ body {font-size:16px;}
 
   <!-- Photo Grid -->
   <div class="w3-row-padding">
-    <div class="w3-half">
-      <img src="images/1.jpg" style="width:50%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="images/1.jpg" style="width:50%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="images/1.jpg" style="width:50%" onclick="onClick(this)" alt="White walls with designer chairs">
-    </div>
-
-    <div class="w3-half">
-      <img src="images/1.jpg" style="width:50%" onclick="onClick(this)" alt="Windows for the atrium">
-      <img src="images/1.jpg" style="width:50%" onclick="onClick(this)" alt="Bedroom and office in one space">
-      <img src="images/1.jpg" style="width:50%" onclick="onClick(this)" alt="Scandinavian design">
-    </div>
+	<div class="w3-quarter">
+		<img src="images/1.jpg" style="width:100%" onclick="onClick(this)" alt="Ornn">
+		<img src="images/5.png" style="width:100%" onclick="onClick(this)" alt="Baby Zombie">
+		<img src="images/2.png" style="width:100%" onclick="onClick(this)" alt="Black and white abstract">
+	</div>
+	
+	<div class="w3-quarter">
+		<img src="images/4.png" style="width:100%" onclick="onClick(this)" alt="Alice">
+		<img src="images/3.png" style="width:100%" onclick="onClick(this)" alt="Fishcats">
+		<img src="images/1.jpg" style="width:100%" onclick="onClick(this)" alt="Ornn">
+	</div>
+	
+	<div class="w3-quarter">
+		<img src="images/1.jpg" style="width:100%" onclick="onClick(this)" alt="Ornn">
+		<img src="images/1.jpg" style="width:100%" onclick="onClick(this)" alt="Ornn">
+		<img src="images/1.jpg" style="width:100%" onclick="onClick(this)" alt="Ornn">
+	</div>
+	<div class="w3-quarter">
+		<img src="images/1.jpg" style="width:100%" onclick="onClick(this)" alt="Ornn">
+		<img src="images/1.jpg" style="width:100%" onclick="onClick(this)" alt="Ornn">
+		<img src="images/1.jpg" style="width:100%" onclick="onClick(this)" alt="Ornn">
+	</div> 
   </div>
+ 
 
   <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
@@ -52,7 +64,7 @@ body {font-size:16px;}
 <footer class="w3-light-grey w3-padding-64 w3-center" id="about">
   <h2>Hello!</h2>
   <img src="images/1.jpg" class="w3-image w3-padding-32" width="300" height="300">
-  <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
+  <form style="margin:auto;width:60%;max-width:600px" action="/action_page.php" target="_blank">
     <p>Tessa is an illustrator/artist based in Christchurch, New Zealand</p>
     <p class="w3-large w3-text-pink">Let's talk!</p>
     <div class="w3-section">
@@ -70,14 +82,14 @@ body {font-size:16px;}
     <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
   </form>
   <br>
-<!-- <div class="w3-panel w3-large">
+<div class="w3-panel w3-large">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div> -->
+  </div>
 </footer>
  
 </body>
